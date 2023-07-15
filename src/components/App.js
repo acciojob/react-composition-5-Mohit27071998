@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-import Tabs from'./Tabs
+import Tabs from './Tabs'
 const App = () => {
   const tabs1 = [
     { title: 'Tab 1', content: 'Content for Tab 1' },
@@ -15,7 +15,7 @@ const App = () => {
   ];
   return (
     <>
-<Tabs tabs={tabs1}/>
+   <Tabs tabs={tabs1}/>
    <Tabs tabs={tabs2}/>
     </>
    
